@@ -17,7 +17,7 @@
       <div class="row">
         <div class="col-xl-3 col-md-6">
           <stats-card title="Net returns"
-                      type="gradient-white"
+                      type="gradient-red"
                       sub-title="35%"
                       icon="ni ni-diamond text-green">
 
@@ -344,5 +344,9 @@
 
 .mid-content{
   justify-content: space-around;
+}
+
+.card-stats{
+  background: linear-gradient(87deg, #172b4d 0, #1a174d 100%) !important;
 }
 </style>

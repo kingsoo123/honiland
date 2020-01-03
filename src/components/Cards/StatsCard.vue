@@ -47,7 +47,5 @@
   };
 </script>
 <style>
-/* .card-stats{
-  background: red;
-} */
+ 
 </style>
