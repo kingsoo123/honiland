@@ -299,3 +299,13 @@ export default {
   }
 };
 </script>
+<style>
+.navbar-expand .navbar-collapse{
+  background: #5e72e4;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+</style>

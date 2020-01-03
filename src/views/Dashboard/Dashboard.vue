@@ -17,9 +17,9 @@
       <div class="row">
         <div class="col-xl-3 col-md-6">
           <stats-card title="Net returns"
-                      type="gradient-red"
-                      sub-title="350,897"
-                      icon="ni ni-active-40">
+                      type="gradient-white"
+                      sub-title="35%"
+                      icon="ni ni-diamond text-green">
 
             <template slot="footer">
               <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
@@ -28,26 +28,26 @@
           </stats-card>
         </div>
         <div class="col-xl-3 col-md-6">
-          <stats-card title="Total traffic"
+          <stats-card title="Invested"
                       type="gradient-orange"
-                      sub-title="2,356"
-                      icon="ni ni-chart-pie-35">
+                      sub-title="N2,356"
+                      icon="ni ni-chart-bar-32">
 
             <template slot="footer">
-              <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 12.18%</span>
-              <span class="text-nowrap">Since last month</span>
+              <!-- <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 12.18%</span> -->
+              <span class="text-nowrap">All time</span>
             </template>
           </stats-card>
         </div>
         <div class="col-xl-3 col-md-6">
-          <stats-card title="Sales"
+          <stats-card title="Withdrawn"
                       type="gradient-green"
-                      sub-title="924"
-                      icon="ni ni-money-coins">
+                      sub-title="N924"
+                      icon="ni ni-archive-2">
 
             <template slot="footer">
-              <span class="text-danger mr-2"><i class="fa fa-arrow-down"></i> 5.72%</span>
-              <span class="text-nowrap">Since last month</span>
+              <!-- <span class="text-danger mr-2"><i class="fa fa-arrow-down"></i> 5.72%</span> -->
+              <span class="text-nowrap">All time</span>
             </template>
           </stats-card>
 
@@ -56,11 +56,11 @@
           <stats-card title="Performance"
                       type="gradient-info"
                       sub-title="49,65%"
-                      icon="ni ni-chart-bar-32">
+                      icon="ni ni-sound-wave">
 
             <template slot="footer">
-              <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 54.8%</span>
-              <span class="text-nowrap">Since last month</span>
+              <!-- <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 54.8%</span> -->
+              <span class="text-nowrap">All time</span>
             </template>
           </stats-card>
         </div>
@@ -332,4 +332,12 @@
     }
   };
 </script>
-<style></style>
+<style>
+.bg-success{
+  background-color: #F8F9FE !important;
+}
+
+.pb-6, .py-6 {
+    padding-bottom: 0.5rem !important;
+}
+</style>
