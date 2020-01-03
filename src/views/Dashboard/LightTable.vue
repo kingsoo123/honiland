@@ -1,13 +1,16 @@
 <template>
     <div class="card">
         <div class="border-0 card-header">
-            <h3 class="mb-0">Light table</h3>
+            <h3 class="mb-0">Transactional History</h3>
+             <div class="col text-right">
+          <base-button size="sm" type="primary">See all</base-button>
         </div>
-
+        </div>
+   
         <el-table class="table-responsive table-flush"
                   header-row-class-name="thead-light"
                   :data="projects.slice(0, itemLimit)">
-            <el-table-column label="Project"
+            <el-table-column label="Updated At"
                              min-width="310px"
                              prop="name"
                              sortable>
@@ -22,13 +25,13 @@
                     </div>
                 </template>
             </el-table-column>
-            <el-table-column label="Budget"
+            <el-table-column label="Amount"
                              prop="budget"
                              min-width="140px"
                              sortable>
             </el-table-column>
 
-            <el-table-column label="Status"
+            <el-table-column label="Type"
                              min-width="170px"
                              prop="status"
                              sortable>
@@ -40,7 +43,7 @@
                 </template>
             </el-table-column>
 
-            <el-table-column label="Users" min-width="190px">
+            <el-table-column label="Status" min-width="190px">
                 <div class="avatar-group">
                     <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip"
                        data-original-title="Ryan Tompson">
@@ -151,8 +154,7 @@
             statusType: 'success',
             completion: 100
           },
-        
-        
+         
         ],
         currentPage: 1
       };

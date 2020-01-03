@@ -160,7 +160,7 @@
       <!--End lists-->
 
       <!--Widgets-->
-      <div class="row">
+      <div class="row mid-content">
        <!--  <div class="col-xl-5">
           <activity-feed></activity-feed>
         </div> -->
@@ -254,6 +254,7 @@
   import BaseProgress from '@/components/BaseProgress';
   import RouteBreadCrumb from '@/components/Breadcrumb/RouteBreadcrumb';
   import StatsCard from '@/components/Cards/StatsCard';
+ 
 
   // Lists
   import ActivityFeed from './ActivityFeed';
@@ -339,5 +340,9 @@
 
 .pb-6, .py-6 {
     padding-bottom: 0.5rem !important;
+}
+
+.mid-content{
+  justify-content: space-around;
 }
 </style>

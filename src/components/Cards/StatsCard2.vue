@@ -1,5 +1,5 @@
 <template>
-  <card class="card-stats" :show-footer-line="true">
+  <card class="card-stats2" :show-footer-line="true">
     <div class="row">
 
       <div class="col">
@@ -30,7 +30,7 @@
   import Card from './Card.vue';
 
   export default {
-    name: 'stats-card',
+    name: 'stats-card2',
     components: {
       Card
     },
@@ -47,7 +47,7 @@
   };
 </script>
 <style>
-/* .card-stats{
-  background: red;
-} */
+.card-stats2{
+  background: rgb(81, 182, 158);
+}
 </style>
